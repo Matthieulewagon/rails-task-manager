@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161122102659) do
+ActiveRecord::Schema.define(version: 20161122103837) do
 
   create_table "task_managers", force: :cascade do |t|
     t.string   "name"

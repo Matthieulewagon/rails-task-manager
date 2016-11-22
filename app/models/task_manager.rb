@@ -1,3 +1,3 @@
 class TaskManager < ApplicationRecord
-  validates :name, presence: true
+  validates :name, :stars , presence: true
 end
